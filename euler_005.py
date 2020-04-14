@@ -12,7 +12,6 @@ while bandera:
     bandera_divisores = True
     for divisor in range (1,21): # Valor limite no se ejecuta dentro del ciclo
         if dividendo % divisor != 0:
-            print(dividendo, " no es divisible entre ", divisor)
             bandera_divisores = False
             break
 
@@ -22,3 +21,4 @@ while bandera:
         dividendo += 20
 
 print("El menor numero divisible del 1 al 20 es: ", dividendo)
+
